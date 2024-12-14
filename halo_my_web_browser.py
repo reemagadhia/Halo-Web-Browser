@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
         self.setWindowIcon(QtGui.QIcon('halo.webp'))
 
         # Google Safe Browsing API key
-        self.api_key = "AIzaSyAHQD6w40p7NYb3gzxZ7PlJih6mzlnk_FY" 
+        self.api_key = "API_KEY" #Cannot include our API-Key in the code due to Github restrictions 
 
         # Create the tab widget
         self.tabs = QTabWidget()
